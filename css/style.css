@@ -1,6 +1,6 @@
-@import "./_settings.css";
-@import "./_header.css";
-@import "_header__navbar.css";
+@import "/_settings.css";
+@import "/_header.css";
+@import "/_header__navbar.css";
 @import "_search-form.css";
 @import "_catalog.css";
 @import "_offers.css";
