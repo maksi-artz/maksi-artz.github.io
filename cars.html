@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>e-car</title>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Nunito:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/_cars-page.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header__navbar" id="nav">
+                <a href="index.html" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
+                <a href="index.html" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="about-us.html" class="menu__item">About Us</a></li>
+                        <li><a href="cars.html" class="menu__item active">Cars</a></li>
+                        <li><a href="404.html" class="menu__item">Services</a></li>
+                        <li><a href="404.html" class="menu__item">FAQ</a></li>
+                        <li><a href="contact-us.html" class="menu__item">Contact Us</a></li>
+                        <li><a href="cars.html" class="primary__btn">Rent Car</a></li>
+                    </ul>
+                </nav>
+
+                <button class="toggle-button">
+                    <span class="toggle-button__bar one"></span>
+                    <span class="toggle-button__bar two"></span>
+                    <span class="toggle-button__bar three"></span>
+                </button>
+
+                <nav class="menu-mobile">
+                    <ul class="menu-mobile__items">
+                        <li><a href="about-us.html" class="menu-mobile__item ">About Us</a></li>
+                        <li><a href="cars.html" class="menu-mobile__item active-m">Cars</a></li>
+                        <li><a href="404.html" class="menu-mobile__item">Services</a></li>
+                        <li><a href="404.html" class="menu-mobile__item">FAQ</a></li>
+                        <li><a href="contact-us.html" class="menu-mobile__item">Contact Us</a></li>
+                        <li><a href="cars.html" class="primary__btn">Rent Car</a></li>
+                    </ul>
+                </nav>
+
+                <div class="overlay"></div>
+
+
+
+            </div>
+
+            <div class="content">
+                <p class="content__label" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-duration="800">The future is closer than you think</p>
+                <h1 data-aos="fade-right" data-aos-easing="ease" data-aos-delay="200" data-aos-duration="800">Discover
+                    the range of cars we offer</h1>
+
+            </div>
+
+
+
+            <form action="#" class="search-form">
+
+                <fieldset class="search-form__content">
+                    <div class="search-form__item">
+                        <label for="car-type">Car category</label>
+                        <select name="car-type" id="car-type" class="dropdown">
+                            <option disabled selected="selected">Choose a category</option>
+                            <option>All</option>
+                            <option>Premium to Xtraordinary</option>
+                            <option>Intermediate to full size</option>
+                            <option>Small to compact</option>
+                            <option>Truck & Van</option>
+                        </select>
+
+
+                    </div>
+
+                    <div class="search-form__item">
+                        <label for="location">Pick-up Location</label>
+                        <select name="location" id="location" class="dropdown">
+
+                            <option disabled selected="selected">Pick-up Location</option>
+                            <option>Austria, Vienna</option>
+                            <option>Netherlands, Amsterdam</option>
+                            <option>Belgium, Brussels</option>
+                            <option>Belarus, Minsk</option>
+                            <option>United Kingdom, London</option>
+                            <option>Germany, Berlin</option>
+                            <option>France, Paris</option>
+                        </select>
+
+                    </div>
+
+                    <div class="search-form__item">
+                        <label for="datepicker">Date</label>
+                        <input type="text" id="datepicker">
+                    </div>
+
+                    <a href="#" class="primary__btn">Show offers</a>
+                </fieldset>
+            </form>
+        </div>
+
+    </header>
+
+    <section class="catalog" data-aos="fade-up" data-aos-offset="400" data-aos-duration="800" data-aos-once="true">
+        <div class="container ">
+
+            <h2>Our Cars</h2>
+
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab--active "> All</li>
+                <li class=" catalog__tab">Premium to Xtraordinary</li>
+                <li class=" catalog__tab">Intermediate to full size</li>
+                <li class=" catalog__tab">Small to compact</li>
+                <li class=" catalog__tab">Truck & Van</li>
+            </ul>
+
+            <div class="catalog__content catalog__content--active">
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/tesla-s.png" alt="tesla-s">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Tesla Model S</div>
+                            <div class="catalog-item__price">€135/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                628 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                2.1 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                1020 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="tesla-s.html" class="primary__btn">read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/tesla-x.png" alt="tesla-x">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Tesla Model X</div>
+                            <div class="catalog-item__price">€110/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                540 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                4.2 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                720 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                7
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/tesla-3.png" alt="tesla-3">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Tesla Model 3</div>
+                            <div class="catalog-item__price">€100/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                428 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                3.6 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                750 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/porshe-taycan.png" alt="tesla-s">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Porsche Taycan </div>
+                            <div class="catalog-item__price">€120/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                477 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                2.8 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                761 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/audi-etron.png" alt="tesla-s">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Audi e-tron</div>
+                            <div class="catalog-item__price">€100/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                436 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                5.7 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                320 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item catalog-item--no-active">
+                    <img class="catalog-item__img" src="./img/jaguar.png" alt="jaguar">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Jaguar I-PACE</div>
+                            <div class="catalog-item__price">€105/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                480 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                4.8 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                394 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn--no-active">coming soon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/vw-id3.png" alt="VW-ID.3">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">VW ID.3</div>
+                            <div class="catalog-item__price">€85/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                400 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                7.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                385 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/kia-e-niro.png" alt="kia-e-niro">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Kia e-Niro</div>
+                            <div class="catalog-item__price">€90/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                455 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                7.8 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                204 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/bmw-i3.png" alt="bmw-i3">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">BMW i3</div>
+                            <div class="catalog-item__price">€90/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                330 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                6.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                170 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/kia-e-soul.png" alt="KIA e-Soul">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">KIA e-Soul</div>
+                            <div class="catalog-item__price">€70/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                452 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                7.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                240 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/nissan-leafII.png" alt="nissan-leaf">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Nissan Leaf II</div>
+                            <div class="catalog-item__price">€75/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                378 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                8.6 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                180 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/honda-e.png" alt="Honda-e">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Honda-e</div>
+                            <div class="catalog-item__price">€60/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                220 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                8.3 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                150 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/renault-zoe.png" alt="Renault ZOE">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Renault ZOE</div>
+                            <div class="catalog-item__price">€65/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                390 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                10 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                100 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/smart-eq.png" alt="smart EQ">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">smart EQ</div>
+                            <div class="catalog-item__price">€55/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                160 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                11.5 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                81 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                2
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/nissan-e-nv200.png" alt="Nissan e-NV200">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Nissan e-NV200</div>
+                            <div class="catalog-item__price">€120/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                280 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                11.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                109 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                7
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/mb-evito.png" alt="Mercedes-Benz eVito">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Mercedes-Benz eVito</div>
+                            <div class="catalog-item__price">€130/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                150 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                10.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                113 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                7
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/e-transporter.png" alt="VW e-Transporter">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">VW e-Transporter</div>
+                            <div class="catalog-item__price">€110/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                138 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                9.3 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                150 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog__content">
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/tesla-s.png" alt="tesla-s">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Tesla Model S</div>
+                            <div class="catalog-item__price">€135/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                628 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                2.1 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                1020 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/tesla-x.png" alt="tesla-x">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Tesla Model X</div>
+                            <div class="catalog-item__price">€110/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                540 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                4.2 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                720 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                7
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/tesla-3.png" alt="tesla-3">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Tesla Model 3</div>
+                            <div class="catalog-item__price">€100/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                428 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                3.6 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                750 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/porshe-taycan.png" alt="tesla-s">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Porsche Taycan </div>
+                            <div class="catalog-item__price">€120/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                477 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                2.8 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                761 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/audi-etron.png" alt="tesla-s">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Audi e-tron</div>
+                            <div class="catalog-item__price">€100/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                436 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                5.7 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                320 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item catalog-item--no-active">
+                    <img class="catalog-item__img" src="./img/jaguar.png" alt="jaguar">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Jaguar I-PACE</div>
+                            <div class="catalog-item__price">€105/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                480 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                4.8 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                394 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn--no-active">coming soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog__content">
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/vw-id3.png" alt="VW-ID.3">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">VW ID.3</div>
+                            <div class="catalog-item__price">€85/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                400 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                7.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                385 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/kia-e-niro.png" alt="kia-e-niro">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Kia e-Niro</div>
+                            <div class="catalog-item__price">€90/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                455 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                7.8 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                204 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/bmw-i3.png" alt="bmw-i3">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">BMW i3</div>
+                            <div class="catalog-item__price">€90/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                330 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                6.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                170 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read mores</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog__content">
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/kia-e-soul.png" alt="KIA e-Soul">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">KIA e-Soul</div>
+                            <div class="catalog-item__price">€70/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                452 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                7.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                240 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read mores</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/nissan-leafII.png" alt="nissan-leaf">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Nissan Leaf II</div>
+                            <div class="catalog-item__price">€75/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                378 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                8.6 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                180 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/honda-e.png" alt="Honda-e">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Honda-e</div>
+                            <div class="catalog-item__price">€60/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                220 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                8.3 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                150 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/renault-zoe.png" alt="Renault ZOE">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Renault ZOE</div>
+                            <div class="catalog-item__price">€65/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                390 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                10 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                100 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                5
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/smart-eq.png" alt="smart EQ">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">smart EQ</div>
+                            <div class="catalog-item__price">€55/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                160 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                11.5 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                81 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                2
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/nissan-e-nv200.png" alt="Nissan e-NV200">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Nissan e-NV200</div>
+                            <div class="catalog-item__price">€120/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                280 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                11.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                109 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                7
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/mb-evito.png" alt="Mercedes-Benz eVito">
+
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">Mercedes-Benz eVito</div>
+                            <div class="catalog-item__price">€130/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                150 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                10.9 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                113 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                7
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-item">
+                    <img class="catalog-item__img" src="./img/e-transporter.png" alt="VW e-Transporter">
+                    <div class="catalog-item__info">
+                        <div class="catalog-item__header">
+                            <div class="catalog-item__subtitle">VW e-Transporter</div>
+                            <div class="catalog-item__price">€110/day</div>
+                        </div>
+                        <div class="catalog-item__descriptions">
+                            <div class="catalog-item__description">
+                                <span>Range (estimated)</span>
+                                138 km
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>0-100 km/h</span>
+                                9.3 s
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Peak Power</span>
+                                150 hp
+                            </div>
+                            <div class="line"></div>
+                            <div class="catalog-item__description">
+                                <span>Seats</span>
+                                4
+                            </div>
+                        </div>
+                        <div class="catalog-item__footer">
+                            <a href="#" class="primary__btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="offers">
+        <div class="container">
+
+            <div class="offers__content">
+
+                <div class="offers-item__title" data-aos="fade-right" data-aos-once="true" data-aos-duration="800">
+                    <h2>What <br> We Offer</h2>
+                    <p>Our company provides a variety of useful options to our new & regular clients.</p>
+                </div>
+
+
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-once="true">
+                    <img class="offers-item__ico" src="./img/wheel-icon.svg" alt="icon">
+                    <div class="offers-item__subtitle">Car Rentals</div>
+                    <ul class="offers-item__descr">
+                        <li>Economy</li>
+                        <li>Standard</li>
+                        <li>Premium/Luxury</li>
+                    </ul>
+                </div>
+
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="400"
+                    data-aos-once="true">
+                    <img class="offers-item__ico" src="./img/wallet-icon.svg" alt="icon">
+                    <div class="offers-item__subtitle">Easy Payment</div>
+                    <ul class="offers-item__descr">
+                        <li>Credit Cards</li>
+                        <li>PayPal</li>
+                        <li>Apple Pay</li>
+                        <li>Google play</li>
+                    </ul>
+                </div>
+
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="500"
+                    data-aos-once="true">
+                    <img class="offers-item__ico" src="./img/star-icon.svg" alt="icon">
+                    <div class="offers-item__subtitle">Benefits</div>
+                    <ul class="offers-item__descr">
+                        <li>Unlimited Mileage</li>
+                        <li>Full Insurance</li>
+                        <li>24/7 Assistance</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="reviews">
+        <div class="container ">
+            <h2>Hear What People Says</h2>
+
+            <div class="reviews__content" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100"
+                data-aos-once="true">
+
+                <div class="reviews-item">
+                    <p class="reviews-item__text">"E-car car rentals include a Full Charge meaning you do not need to
+                        recharge before returning it at the end of your rental, saving you time and money."</p>
+                    <div class="reviews-item__person">
+                        <img class="reviews-item__photo" src="./img/photo-1.png" alt="photo">
+                        <div class="reviews-item__info">
+                            <div class="reviews-item__name">Ronald Richards</div>
+                            <div class="reviewsitem__post">Customer</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="reviews-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-once="true">
+                    <p class="reviews-item__text">""When you hire an electric car from E-car not only will you be
+                        helping to protect the environment, but you can also reduce your travel costs! - is a TRUE"</p>
+                    <div class="reviews-item__person">
+                        <img class="reviews-item__photo" src="./img/photo-2.png" alt="photo">
+                        <div class="reviews-item__info">
+                            <div class="reviews-item__name">Ralph Edwards</div>
+                            <div class="reviews-item__post">Customer</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="reviews-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-once="true">
+                    <p class="reviews-item__text">"Join the Electric revolution and book an Electric car with E-car !
+                        You can be confident with an Electric Car autonomy of up to 400km, plus all the tools you need
+                        to charge at home or by the roadside."</p>
+                    <div class="reviews-item__person">
+                        <img class="reviews-item__photo" src="./img/photo-3.png" alt="photo">
+                        <div class="reviews-item__info">
+                            <div class="reviews-item__name">Kristin Watson</div>
+                            <div class="reviews-item__post">Customer</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="station">
+        <h2> Our Network of<br> Charging Stations</h2>
+        <div class="station__content">
+
+            <div class="station__img"></div>
+            <div class="station__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19606.494927216037!2d5.1339964634996775!3d52.10135543349729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7355b758e0b3919a!2sEVBox%20Charging%20Station!5e0!3m2!1sru!2sby!4v1614864061925!5m2!1sru!2sby"
+                    width="1100" height="600" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__nav">
+                <a href="/" class="logo--footer"><img src="./img/logo-light.svg" alt="e-car logo"></a>
+                <ul class="footer__sm">
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.svg"
+                                alt="facebook"></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img src="./img/twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.svg"
+                                alt="instagram"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__contacts">
+                    <a href="tel:+7045550127">(704) 555-0127</a>
+                    <a href="mailto:e_car@example.com7">e_car@example.com</a>
+                    <div>4 Donnerville Hall, Donnerville <br> Drive, Admaston, TF5 0DF</div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer__items">
+                <div class="item__rights">
+                    © 2021 e-car. All Rights Reserved
+                </div>
+                <ul class="item__services">
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="to-top">
+        <img src="./img/top.svg" alt="top">
+    </a>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
