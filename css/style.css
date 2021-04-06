@@ -5,8 +5,8 @@
 @import url(/css/_catalog.css);
 @import url(/css/_offers.css);
 @import url(css/_stats.css);
-@import url(css/_button.css);
-@import url(../css/_footer.css);
+@import url(/_button.css);
+@import url(_footer.css);
 
 :root {
   --green-main: #6ce9ad;
