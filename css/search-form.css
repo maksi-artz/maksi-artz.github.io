@@ -1,0 +1,207 @@
+.search-form {
+  display: flex;
+  align-items: center;
+  margin: 70px auto 0;
+  max-width: 1300px;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.search-form__item {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  margin: 0 14px;
+}
+
+.search-form__item label {
+  padding-bottom: 14px;
+  font-size: 0.75rem;
+}
+
+.search-form__item input {
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--grey-no-active);
+}
+
+.search-form__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.ui-widget {
+  font-family: inherit;
+  border: none;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  position: relative;
+  padding: 6px 8px 6px;
+}
+.ui-widget-content {
+  border: none;
+  border-radius: 0 0px 8px 8px;
+  box-shadow: 0 16px 20px rgba(60, 76, 165, 0.12);
+}
+
+.ui-button {
+  padding: 0 0 8px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid var(--grey-no-active);
+  min-width: 240px;
+  font-family: "Nunito", sans-serif;
+  background-color: transparent;
+}
+
+.ui-button:hover,
+.ui-button:focus {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid var(--blue-hover);
+  background-color: transparent;
+}
+
+.ui-button .ui-icon {
+  background-image: url("../img/arrow-down.svg");
+  display: block;
+  background-position: center;
+}
+
+.ui-button:hover .ui-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0iIzNmNWJmYyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+}
+
+.ui-button:focus .ui-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0iIzNmNWJmYyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+  transform: rotate(180deg);
+}
+
+.ui-button:hover,
+.ui-button:focus,
+input:hover,
+input:focus {
+  border-bottom: 2px solid var(--blue-hover);
+}
+
+.ui-selectmenu-text {
+  color: var(--dark-main);
+}
+
+.ui-datepicker {
+  min-width: 240px;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--white);
+  color: var(--dark-main);
+  box-shadow: 0px 16px 20px rgba(60, 76, 165, 0.12);
+  box-sizing: border-box;
+}
+
+.ui-datepicker-calendar {
+  padding: 0 8px 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.ui-datepicker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 8px 14px;
+  border: none;
+  background-color: transparent;
+}
+
+.ui-datepicker-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--dark-main);
+}
+
+.ui-datepicker-header .ui-icon {
+  display: block;
+  text-indent: inherit;
+  appearance: none;
+  overflow: inherit;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  margin: 0;
+  padding: 3px;
+  border-bottom: 1px solid var(--blue-main);
+  font-size: 0.75rem;
+  color: var(--blue-main);
+  cursor: pointer;
+}
+
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover {
+  padding: 0px 3px;
+  border-radius: 4px;
+  background-color: var(--blue-light);
+}
+
+.ui-datepicker-next {
+  order: 1;
+}
+
+.ui-datepicker-calendar td a {
+  color: var(--dark-main);
+}
+
+.ui-datepicker td:hover,
+td:active {
+  border-radius: 3px;
+  background: var(--blue-light);
+}
+
+.ui-datepicker a {
+  color: var(--blue-main);
+  border: none;
+}
+
+.ui-datepicker a:active {
+  border: none;
+  color: var(--blue-light);
+}
+
+.ui-state-active {
+  border: none;
+  background-color: var(--blue-main);
+}
+
+@media (max-width: 1169px) {
+  .search-form a {
+    margin-top: 20px;
+    max-height: 54px;
+  }
+  .search-form__item {
+    margin: 14px;
+  }
+}
+
+@media (max-width: 864px) {
+  .search-form__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1170px) {
+  .search-form {
+    padding: 45px;
+    border-radius: 90px;
+    box-shadow: 0px 16px 20px rgba(60, 76, 165, 0.12);
+  }
+}

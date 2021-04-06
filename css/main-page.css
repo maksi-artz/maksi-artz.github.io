@@ -1,0 +1,14 @@
+.header {
+  padding: 8px 0 120px;
+}
+
+.screen__img {
+  right: 0;
+  top: 189px;
+  max-width: 960px;
+  height: 500px;
+  width: 100%;
+  background-image: url(../img/header-screen.png);
+  background-size: contain;
+  background-position: center;
+}
