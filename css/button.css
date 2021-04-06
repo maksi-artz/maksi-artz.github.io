@@ -69,7 +69,7 @@
   transition: 250ms all ease-in-out;
 }
 
-@media screen and (max-width: 500px) {
+@media (hover: hover) and (pointer: fine) {
   .primary__btn:hover {
     box-shadow: none;
   }
