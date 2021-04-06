@@ -68,9 +68,3 @@
   user-select: none;
   transition: 250ms all ease-in-out;
 }
-
-@media (hover: hover) and (pointer: fine) {
-  .primary__btn:hover {
-    box-shadow: none;
-  }
-}
