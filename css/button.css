@@ -71,7 +71,6 @@
 
 @media screen and (max-width: 500px) {
   .primary__btn:hover {
-    background: none;
     box-shadow: none;
   }
 }
