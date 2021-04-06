@@ -68,3 +68,5 @@
   user-select: none;
   transition: 250ms all ease-in-out;
 }
+
+@media (any-hover: none);
