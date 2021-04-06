@@ -1,12 +1,12 @@
-@import url(./css/_settings.css);
-@import url(./css/_header.css);
-@import url(./css/_header__navbar.css);
-@import url(./css/_search-form.css);
-@import url(./css/_catalog.css);
-@import url(./css/_offers.css);
-@import url(./css/_stats.css);
-@import url(./css/_button.css);
-@import url(./css/_footer.css);
+@import url(../css/_settings.css);
+@import url(../css/_header.css);
+@import url(../css/_header__navbar.css);
+@import url(../css/_search-form.css);
+@import url(../css/_catalog.css);
+@import url(../css/_offers.css);
+@import url(../css/_stats.css);
+@import url(../css/_button.css);
+@import url(../css/_footer.css);
 
 :root {
   --green-main: #6ce9ad;
